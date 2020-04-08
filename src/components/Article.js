@@ -36,7 +36,7 @@ const Articles = (props) => {
                 <img
                     width={272}
                     alt="logo"
-                    src="https://gw.alipayobjects.com/zos/rmsportal/mqaQswcyDLcXyDKnZfES.png"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Cezanne_-_Allee_im_Jas_de_Bouffan.jpg/295px-Cezanne_-_Allee_im_Jas_de_Bouffan.jpg"
                 />
                 }
             >
