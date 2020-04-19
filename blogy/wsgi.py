@@ -1,5 +1,5 @@
 """
-WSGI config for djreact project.
+WSGI config for blogy project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -12,7 +12,7 @@ import os
 from whitenoise.django import DjangoWhiteNoise
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'djreact.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'blogy.settings')
 
 application = get_wsgi_application()
 application = DjangoWhiteNoise(application)
