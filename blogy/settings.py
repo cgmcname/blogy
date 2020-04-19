@@ -55,7 +55,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'djreact.urls'
+ROOT_URLCONF = 'blogy.urls'
 
 TEMPLATES = [
     {
@@ -73,7 +73,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'djreact.wsgi.application'
+WSGI_APPLICATION = 'blogy.wsgi.application'
 
 
 # Database
